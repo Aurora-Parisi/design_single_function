@@ -1,0 +1,23 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python byte-code files
+*.pyc
+__pycache__/
+
+# macOS specific files
+.DS_Store
+
+# VS Code specific files (optional, but often useful)
+.vscode/
+
+# Coverage data (from 'coverage run')
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Any other files you want to ignore (e.g., logs, sensitive data)
+*.log
+*.sqlite3 # If you use SQLite for a database
